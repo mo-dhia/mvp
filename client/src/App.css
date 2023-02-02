@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: #201f1f;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+#main {
+    margin-left: 1vw;
+}
+
+/* #trendingMovies {
+    width: 100%;
+    height: 210px;
+    overflow: auto;
+    white-space: nowrap;
+
+} */
+
+#trendingMovies::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+#trendingSeries {
+    width: 100%;
+    height: 210px;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+#trendingSeries::-webkit-scrollbar {
+    display: none;
+}
+
+#trendingSeries img {
+    width: 350px;
+    margin-left: 30px;
+    white-space: nowrap
+}
+
+
+

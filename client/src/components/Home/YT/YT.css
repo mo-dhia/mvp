@@ -1,0 +1,14 @@
+#title {
+    color: white;
+    font-size: 80px;
+    width: 40vw;
+}
+
+#ytVid {
+    position: absolute;
+    width: 100vw;
+    right: 0;
+    height: 108%;
+    top: -70px;
+    z-index: -555555555;
+}

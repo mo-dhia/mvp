@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201f1f;
+    height: 100px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 8vw;
+    font-family: helvetica;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 40px;
+}
+
+
+@media screen and (max-width: 992px) {
+    header li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {}
